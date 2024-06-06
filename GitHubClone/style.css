@@ -3,6 +3,7 @@
 :root{
     --grey-color: rgb(54, 54, 54);
     --side-bar: #0d1117;
+    --off-white: rgb(218, 218, 218);
 }
 
 *{
@@ -159,4 +160,79 @@ body{
 
 .simple-text{
     color: var(--grey-color);
+}
+
+.main-body{
+    width: 100%;
+    position: relative;
+    top: 7%;
+    display: flex;
+}
+
+.side-bar{
+    width: 17%;
+    background-color: var(--side-bar);
+    border-right: solid var(--grey-color);
+    border-width: 1px;
+    display: flex;
+}
+
+.side-bar-container{
+    border: dotted;
+    color: blue;
+    width: 100%;
+    padding: 35px 20px 0 20px;
+}
+
+.top-repositories-container{
+    border: dotted;
+    color: blue;
+    height: 40%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.top-bar-container{
+    border: dotted;
+    color: blue;
+    display: flex;
+    height: 12%;
+    width: 100%;
+    align-items: center;
+}
+
+.top-bar-container-content{
+    font-size: 13px;
+    font-family: inherit;
+    font-weight: bold;
+    color: var(--off-white);
+    flex: 0.5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.recent-rep-container{
+    border: dotted;
+    color: blue;
+    width: 100%;
+    height: 65%;
+}
+
+.recent-activity-container{
+    border: dotted;
+    color: blue;
+    height: 12%;
+}
+
+.top-bar-container-content-new{
+    border: dotted;
+    color: blue;
+    height: 80%;
+    width: 3vw;
+    border-radius: 10%;
+    background-color: #238636;
+    display: flex;
 }
