@@ -4,6 +4,7 @@
     --grey-color: rgb(54, 54, 54);
     --side-bar: #0d1117;
     --off-white: rgb(218, 218, 218);
+    --muted-grey: #161b22;
 }
 
 *{
@@ -219,6 +220,10 @@ body{
     color: blue;
     width: 100%;
     height: 65%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .recent-activity-container{
@@ -228,11 +233,53 @@ body{
 }
 
 .top-bar-container-content-new{
-    border: dotted;
-    color: blue;
     height: 80%;
-    width: 3vw;
-    border-radius: 10%;
+    width: 3.4vw;
+    border-radius: 7%;
     background-color: #238636;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.findRepository{
+    height: 3.5vh;
+    border-radius: 5%;
+    border: solid var(--grey-color);
+    border-width: 1px;
+    cursor: pointer;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: left;
+    background-color: var(--muted-grey);
+    transition: background-color 0.1s;
+}
+
+.find-repo{
+    color: var(--grey-color);
+}
+
+.recent-repo-outer{
+    border: dotted;
+    color: blue;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.recent-repo-icon{
+    border-radius: 50%;
+    height: 1.8vh;
+    width: 1vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.recent-repo-text{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
 }
