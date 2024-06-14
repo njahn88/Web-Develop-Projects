@@ -301,3 +301,17 @@ body{
     color: blue;
     width: 100%;
 }
+
+.main-body-container-content{
+    border: dotted;
+    color: blue;
+    display: flex;
+}
+
+.main-body-container-content-inner{
+    display: flex;
+    border: dotted;
+    color: blue;
+    width: 100%;
+    align-items: center;
+}
