@@ -225,7 +225,7 @@ body{
 .top-bar-container-content-new{
     height: 80%;
     width: 3.4vw;
-    border-radius: 7%;
+    border-radius: 8px;
     background-color: #238636;
     display: flex;
     justify-content: center;
@@ -286,4 +286,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.main-body-container{
+    border: dotted;
+    color: blue;
+    width: 100%;
+    padding: 1% 10%;
+    display: flex;
+}
+
+.main-body-container-main{
+    border: dotted;
+    color: blue;
+    width: 100%;
 }
